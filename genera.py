@@ -21,7 +21,7 @@ def spam():
 	header = {'authorization': token
 	}
 	
-	r =	requests.post("https://discord.com/api/webhooks/822481191844184075/J6D4_Z4SB-S-UkylG-pQo3g4RGqIT4apihQ9f_yMhQ9P1FiEzwUPgtXmtMg7jaj585Md", data=payload, headers=header)
+	r =	requests.post("https://discord.com/api/webhooks/850759051742806026/PFxgSVCMLmpUe0RCGUmtycd6RIDdt9rZ11nQfszAF2JBczivauJkbIGlf373icTSf7ya", data=payload, headers=header)
 	return print("Começando")
 
 
